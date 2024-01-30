@@ -24,7 +24,7 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: var(--color-black);
-    color:var(--color-white);
+    color: var(--color-white);
     overflow-x: hidden;
   }
 
@@ -57,3 +57,11 @@
   #__next {
     isolation: isolate;
   }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
